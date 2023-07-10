@@ -1,16 +1,67 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
 
-</body>
+	 <form action="" method="post">
+        <p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+        </p>
 
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+
+        <p>
+            <label>Gender</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="Male" required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="Female" required>
+        </p>
+
+        <p>
+            <label for="laptop">Laptop Brands</label>
+            <select name="" id="laptop">
+                <option value="1">Apple</option>
+                <option value="2">Asus</option>
+                <option value="3">HP</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="age">Age</label>
+            <input type="number" name="Age" id="age" required>
+        </p>
+
+        <p>
+            <label for="dob">DOB</label>
+            <input type="date" name="DOB" id="dob" required>
+        </p>
+
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </p>
+
+        <p>
+            <label for="portfolio">Portfolio</label>
+            <input type="url" id="portfolio">
+        </p>
+
+        <p>
+            <button type="submit">submit</button>
+        </p>
+
+    </form>
+
+</body>
 </html>
